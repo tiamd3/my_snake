@@ -8,6 +8,9 @@ pub enum BgmState {
     Empty,
 }
 
+
+
+
 struct BgmManager {
     music: Option<Source>,
     state: BgmState,
